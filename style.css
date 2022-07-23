@@ -1,0 +1,162 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#container {
+    max-width: 1280px;
+    width: 100%;
+    height: 100vh;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+#parentContainer {
+    width: 400px;
+    height: 400px;
+    background-color: #333;
+}
+
+#childContainer {
+    width: 100px;
+    height: 100px;
+    background-color: #50884d;
+}
+
+/* ======= First option ========= */
+
+/* #parentContainer {
+    position: relative;
+}
+
+#childContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* ============================== */
+
+/* ======= Second option ========= */
+
+/* #parentContainer {
+    position: relative;
+}
+
+#childContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+} */
+
+/* ============================== */
+
+/* ======= Third option ========= */
+
+/* #parentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#childContainer {
+
+} */
+
+/* ============================== */
+
+/* ======= Fourth option ========= */
+
+/* #parentContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#childContainer {
+    align-self: center;
+} */
+
+/* ============================== */
+
+
+/* ======= Fifth option ========= */
+
+/* #parentContainer {
+    display: flex;
+}
+
+#childContainer {
+    margin: auto;
+} */
+
+/* ============================== */
+
+/* ======= Sixth option ========= */
+
+/* #parentContainer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#childContainer {
+} */
+
+/* ============================== */
+
+/* ======= Seventh option ========= */
+
+/* #parentContainer {
+    display: grid;
+    place-items: center;
+}
+
+#childContainer {
+} */
+
+/* ============================== */
+
+/* ======= Eighth option ========= */
+
+/* #parentContainer {
+    display: grid;
+}
+
+#childContainer {
+    align-self: center;
+    justify-self: center;
+} */
+
+/* ============================== */
+
+/* ======= Ninth option ========= */
+
+/* #parentContainer {
+    display: grid;
+}
+
+#childContainer {
+    place-self: center;
+} */
+
+/* ============================== */
+
+/* ======= Tenth option ========= */
+
+/* #parentContainer {
+    display: grid;
+}
+
+#childContainer {
+    margin: auto;
+} */
+
+/* ============================== */
